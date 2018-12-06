@@ -6,3 +6,4 @@ from flask import Blueprint
 api = Blueprint("api_1_0", __name__)
 
 from .demo import index
+from .image_code import image_code
